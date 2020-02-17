@@ -46,11 +46,11 @@ function calculatedResults () {
         totalPayment.value = (monthly * calculatedPayment).toFixed(2);
         totalInterest.value= ((monthly * calculatedPayment) - principal).toFixed(2);
 
-         //hide result
+         //showresult
 
     document.getElementById('results').style.display ='block';
 
-    //showloader
+    //hideloader
     document.getElementById('loading').style.display= 'none';
         
     }  else {
