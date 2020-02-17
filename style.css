@@ -1,0 +1,22 @@
+
+body { 
+    background: url(img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+
+
+
+
+
+#loading {
+    display: none;
+    padding-top: 5%;
+}
+
+#results {
+    display: none;
+}
